@@ -1,7 +1,63 @@
+# Directories
+data
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+*.DS_Store
+*.DS_Store?
+*._*
+*.Spotlight-V100
+*.Trashes
+*ehthumbs.db
+*Thumbs.db
+
+# Data files
+*.csv
+*.jld
+*.mat
+
+# Images
+*.jpg
+*.jpeg
+*.bitmap
+*.png
+
+# Documents
+*.eps
+*.pdf
+
+# Misc
+*.swp
+*.ipynb
+*.ipynb_checkpoints
+
+# Scala
 *.class
 *.log
 
-# sbt specific
+# SBT
 .cache
 .history
 .lib/
@@ -12,6 +68,19 @@ src_managed/
 project/boot/
 project/plugins/project/
 
-# Scala-IDE specific
+# Scala-IDE
 .scala_dependencies
 .worksheet
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+# Vim
+tags
+.*.swp
+.*.swo
+
+# Spark
+ckpt-*
